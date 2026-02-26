@@ -4,17 +4,17 @@ files:
     visible: true
     placeholders:
       - offset: 7
-        length: 3
+        length: 14
         placeholder_text: ???
         initial_state:
           length: 3
           offset: 7
         initialized_from_dependency: false
         encrypted_possible_answer: 8V6HNKL7hAWBzAo512WXyg==
-        selected: false
-        status: Unchecked
-      - offset: 17
-        length: 3
+        selected: true
+        status: Solved
+      - offset: 28
+        length: 2
         placeholder_text: ???
         initial_state:
           length: 3
@@ -22,19 +22,19 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: DXdeVjnqwe6gRiLvi33RfQ==
         selected: false
-        status: Unchecked
-      - offset: 47
-        length: 3
+        status: Solved
+      - offset: 57
+        length: 7
         placeholder_text: ???
         initial_state:
           length: 3
           offset: 47
         initialized_from_dependency: false
         encrypted_possible_answer: 4iMGpMhlTtqw1gs/vbjxgQ==
-        selected: false
-        status: Unchecked
-      - offset: 59
-        length: 3
+        selected: true
+        status: Solved
+      - offset: 72
+        length: 5
         placeholder_text: ???
         initial_state:
           length: 3
@@ -42,7 +42,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: XSmS7jRjR00xYEE49HNA4A==
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: tests/__init__.py
     visible: false
@@ -51,5 +51,8 @@ files:
     visible: false
     learner_created: false
 feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Strings+/+F-strings
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 26 Feb 2026 22:24:12 UTC"
 record: -1
