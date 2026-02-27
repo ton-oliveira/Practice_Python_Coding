@@ -7,6 +7,8 @@ else:
 
 for i in range(1, 5):
     # Add a condition for interruption.
+    if i >= 3:
+        break
         # Add a statement that will terminate the loop.
     print(i)
 else:
