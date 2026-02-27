@@ -3,7 +3,7 @@ files:
   - name: task.py
     visible: true
     placeholders:
-      - offset: 55
+      - offset: 56
         length: 37
         placeholder_text: '''Print number 9 from the nested list'''
         initial_state:
@@ -12,8 +12,8 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: wIcUbKQkzDQZHqa4KQbyCw==
         selected: false
-        status: Unchecked
-      - offset: 100
+        status: Solved
+      - offset: 123
         length: 38
         placeholder_text: '''Print number 10 from the nested list'''
         initial_state:
@@ -22,7 +22,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: 0DrqmhAdpO4eFjHtTziHpQ==
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: tests/__init__.py
     visible: false
@@ -31,5 +31,8 @@ files:
     visible: false
     learner_created: false
 feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Data+Structures+/+Nested+Lists
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Fri, 27 Feb 2026 00:19:48 UTC"
 record: -1
