@@ -1,3 +1,6 @@
+from os import name
+
+
 class ComplexNumber:
     def __init__(self, real_part, imag_part):
         self.real = real_part
@@ -21,10 +24,10 @@ class Cat:
         self.name = name
 
     def __repr__(self):
-        return ???
+        return f"Cat, breed: {self.breed}, name: {self.name}"
 
     def __str__(self):
-        return ???
+        return f"My {self.breed} cat's name is {self.name}"
 
 
 lucy = Cat('siamese', 'Lucy')

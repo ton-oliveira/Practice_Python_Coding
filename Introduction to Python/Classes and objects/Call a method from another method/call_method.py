@@ -8,8 +8,9 @@ class Calculator:
         self.current *= number
 
     def exponentiate(self, power):
-        base = # TODO: set the exponentiation `base`, it should be equal to the current value.
+        base = self.current
         for i in range(power - 1):
+            self.multiply(base)
             # TODO: use the `multiply` method with the parameter `base` to calculate the result.
 
     def get_current(self):
@@ -27,3 +28,5 @@ print(calc.get_current())  # Print the result, it should be 6.
 
 calc.exponentiate(3)  # Raise to the power of 3.
 print(calc.get_current())  # Print the result, it should be 216.
+
+print()
